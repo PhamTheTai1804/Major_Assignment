@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="baitaplon.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    </head>
+    <body>
+        <img src="/image/wallimg.jpg" style="width: 100%;">
+        <div class="nav">
+            <ul>
+                <li><img src="/image/logo.png" style="width: 200px;"></li>
+                <li>
+                    <input id="searchbox" onkeyup="search()">
+                    <div class="iconsearch">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="display">
+                        <ul>
+                            <li>
+                                <p class="VN"> Đã Tìm Thấy <a id="sl">0</a> Kết Quả</p>
+                                <p class="EN" > <a id="sl">0</a> Result Found</p>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productNovel1.jpg">
+                                <p class="VN">Cây Cam Ngọt Của Tôi</p>
+                                <p class="EN">My Sweet Orange Tree</p>
+                                <p>Jose Mauro de Vasconcelos</p>
+                                <a>76000₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </a>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productComics1.jpg">
+                                <p class="VN">Mùa Hè Bất Tận</p>
+                                <p class="EN"> Endless Summer</p>
+                                <p>Lâm Hoàng Trúc</p>
+                                <a>123.000₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </a>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productComics2.jpg">
+                                <p class="VN">Bất Tử Và Bất Hạnh</p>
+                                <p class="EN">Undead Unluck</p>
+                                <p>Totsuka Yoshifumi</p>
+                                <a>45.999₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                    <i class="far fa-star"></i>
+                                </a>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productComics3.jpg">
+                                <p class="VN">Naruto Truyền Kỳ</p>
+                                <p class="EN">Naruto Shippuden</p>
+                                <p>Kishimoto Seishi</p>
+                                <a>23.750₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </a>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productComics4.png">
+                                <p class="VN">Đảo Hải Tặc</p>
+                                <p class="EN">One Piece</p>
+                                <p>Oda Eiichiro</p>
+                                <a>23.750₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </a>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productComics5.jpg">
+                                <p class="VN">Bleach-Huyết Chiến Ngàn Năm</p>
+                                <p class="EN">Bleach-One Thousand Year Blood War</p>
+                                <p>Kubo Taito</p>
+                                <a>28.350₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </a>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productComics6.png">
+                                <p class="VN">Bảy Viên Ngọc Rồng</p>
+                                <p class="EN"> Dragon Ball </p>
+                                <p>Toriyama Akira</p>
+                                <a>25.999₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </a>
+                            </li>
+                            <li class="product_search">
+                                <img src="/image/productComics6.png">
+                                <p class="VN">Bảy Viên Ngọc Rồng 2</p>
+                                <p class="EN"> Dragon Ball 2 </p>
+                                <p>Toriyama Akira</p>
+                                <a>25.999₫</a><br>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <i class="fas fa-bell"></i>
+                </br><p class="VN">Thông Báo</p>
+                <p class="EN" >Notification</p>
+            </li>
+                <li>
+                    <i class="fas fa-shopping-cart"></i>
+                    <br><p class="VN">Giỏ Hàng</p>
+                    <p class="EN" style="margin-right: 6px;"> My Cart</p>
+                </li>
+                <li>
+                    <i class="fas fa-user"></i>
+                    <br><p class="VN">Tài Khoản</p>
+                    <p class="EN" style="margin-right: 14px;">User</p> 
+                </li>
+                <li>
+                    <button id="translate_icon" onclick="hide()"><img id="iconEVN" src="/image/iconVN.png" style="opacity: 1;"><i class="fas fa-chevron-down"></i> </button>
+                    <div id="test">
+                        <ul>
+                            <li id="VNicon"><img src="/image/iconVN.png"><i >VN</i></li>
+                            <li id="ENicon"><img src="/image/iconE.png"><i >EN</i></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="slide">
+            <div class="slide_left">
+                <div class="container">
+                    <div class="image">
+                        <img src="/image/img1.jpg">
+                        <img src="/image/img2.jpg">
+                        <img src="/image/img3.jpg">
+                        <img src="/image/img4.jpg">
+                        <img src="/image/img5.jpg">
+                    </div>
+                    <div class="symbol">
+                        <button onclick="b()"><i class="fas fa-chevron-left"></i></button>
+                        <button onclick="a()"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="symbol2">
+                    <button onclick="c()">
+                        <i class="fas fa-circle"></i>
+                    </button>
+                    <button onclick="d()">
+                        <i class="fas fa-circle"></i>
+                    </button>
+                    <button onclick="e()">
+                        <i class="fas fa-circle"></i>
+                    </button>
+                    <button onclick="f()">
+                        <i class="fas fa-circle"></i>
+                    </button>
+                    <button onclick="g()">
+                        <i class="fas fa-circle"></i>
+                    </button>
+                </div>
+            </div>   
+            <div class="slide_right">
+                <img src="/image/img6.jpg" > 
+                <img src="/image/img7.jpg" > 
+            </div>            
+        </div>
+        <div class="slide_bot">
+            <img src="/image/slidebot1.png">
+            <img src="/image/slidebot2.png">
+            <img src="/image/slidebot3.png">
+            <img src="/image/slidebot4.png">
+        </div>
+        <div class="product-list" >
+            <div style="position: absolute;width: 100%;height: 100px;">
+                <h2><i class="fas fa-book"></i><p class="VN">Truyện Tranh</p><p class="EN">Comics</p></h2> 
+                <a>_______________________________</a>
+            </div>
+            <div class="view">
+                <div class="containerComics">
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="/image/productComics1.jpg">
+                        <p class="name VN">Mùa Hè Bất Tận</p>
+                        <p class ="name EN" style="font-size: 19px;">Endless Summer</p>
+                        <p class="author">Lâm Hoàng Trúc</p>
+                        <a>123.000</a><br>
+                        <a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </a>
+                        <a>
+                            <i class="fas fa-cart-plus"></i>
+                            <p id="buy" class="VN">Mua Ngay!</p>
+                            <p id="buy" class="EN">Buy Now!</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="symbol">
+                    <button onclick="goleft()"><i class="fas fa-chevron-left"></i></button>
+                    <button onclick="goright()"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <script src="baitaplon.js"></script>
+    </body>
+</html>
