@@ -308,6 +308,7 @@ input:focus{
     border-color: rgb(181, 184, 184) ;
     margin-right: 0px;
     animation: search 0.6s ease;
+    display: none;
 }
 .display  ul li:last-child{
     margin-bottom: 20px;

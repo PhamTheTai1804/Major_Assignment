@@ -234,6 +234,7 @@ var product_search_list = document.querySelectorAll(".product_search")
 var tb=document.querySelectorAll("#sl")
 var search = function search1()
 {
+    document.querySelector(".tb").style.display="flex";
     var input_value = document.getElementById("searchbox").value;
     var input_value_legit = input_value.toLowerCase()
     if(input_value_legit.length==0) {
