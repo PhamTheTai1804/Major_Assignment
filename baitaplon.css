@@ -542,22 +542,17 @@ box{
 }
 box1{ 
     float: left;
-    width: 22%;
+    width: 27%;
     margin-right: 2%;
 }
 box2{ 
     float: left;
-    width: 23%;
+    width: 33.5%;
     margin-right: 2%;
 }
 box3{ 
     float: left;
-    width: 23%;
-    margin-right: 2%;
-}
-box4{ 
-    float: left;
-    width: 26%;
+    width: 35.5%;
 }
 footer{
     background-color: #283336;
