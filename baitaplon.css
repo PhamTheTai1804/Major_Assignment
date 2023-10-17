@@ -531,6 +531,45 @@ input:focus{
 .product-list :hover button{
     opacity: 0.7;
 }
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+box{
+    width: 80%;
+    margin: 0 auto;
+}
+box1{ 
+    float: left;
+    width: 22%;
+    margin-right: 2%;
+}
+box2{ 
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+box3{ 
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+box4{ 
+    float: left;
+    width: 26%;
+}
+footer{
+    background-color: #283336;
+    color: #b0b0a9;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #e7e7db;
+}
 @keyframes search{ 
     from{ opacity: 0;}
     to{opacity: 1;}
