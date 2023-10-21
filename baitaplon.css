@@ -630,10 +630,6 @@ h1::before{
     height: 2px;
     width: 230px; 
 }
-footer img:hover{
-    box-shadow: 0 0 2px 1px #342719;
-    cursor: pointer;
-}
 footer i{
     font-size: 25px;
     padding-right: 20px;
